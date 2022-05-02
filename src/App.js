@@ -1,11 +1,12 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { Header, Navbar } from "./components";
 
 function App() {
   return (
     <>
       <div className="gradient__bg">
         <Navbar />
+        <Header />
       </div>
     </>
   );

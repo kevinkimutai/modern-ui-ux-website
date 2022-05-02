@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.navbar__navbar-logo img {
+  width: 6.2rem;
+  height: 1.6rem;
+}
+.navbar__navbar-links {
+  display: flex;
+  flex-direction: row;
+}
+.navbar__navbar-links p {
+  text-transform: capitalize;
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+  margin-right: 3.4rem;
+}
+.navbar__signin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.navbar__signin-container p {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.navbar__signin-container button {
+  padding: 1rem 1.5rem;
+  background: var(--color-complementary);
+  color: #fff;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+.navbar__toggle-menu_container {
+  position: relative;
+  display: none;
+}
+.navbar__menu-links_container {
+  position: absolute;
+  background: var(--color-footer);
+  margin-top: 1rem;
+  min-width: 21rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 0.5prem rgba(0, 0, 0, 0.2);
+}
+.navbar__menu-links {
+  display: flex;
+  flex-direction: column;
+}
+.navbar__menu-links p {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+}
+.navbar__menu-sign-in {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+.navbar__menu-sign-in p {
+  font-size: 1.5rem;
+  cursor: pointer;
+  cursor: pointer;
+}
+.navbar__menu-sign-in button {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-complementary);
+  color: #fff;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 105em) {
+  .navbar__toggle-menu_container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 75em) {
+  .navbar__navbar-links {
+    display: none;
+  }
+  .navbar__toggle-menu_container {
+    display: block;
+  }
+  .navbar__signin-container {
+    position: absolute;
+    right: 10rem;
+  }
+}
+@media screen and (max-width: 55em) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+
+  .navbar__signin-container {
+    display: none;
+  }
+}

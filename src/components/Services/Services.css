@@ -1,0 +1,37 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.services__title {
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+  max-width: 45rem;
+  margin-right: 5rem;
+}
+.services__title h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 3.4rem;
+  line-height: 4.5rem;
+  margin-bottom: 3.4rem;
+}
+.services__title p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: var(--color-subtext);
+}
+.services__features {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.services__features .feature {
+  display: flex;
+  flex-direction: row;
+}

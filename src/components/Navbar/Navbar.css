@@ -81,13 +81,13 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 105em) {
+@media screen and (max-width: 1050px) {
   .navbar__toggle-menu_container {
     display: none;
   }
 }
 
-@media screen and (max-width: 75em) {
+@media screen and (max-width: 750px) {
   .navbar__navbar-links {
     display: none;
   }
@@ -99,7 +99,7 @@
     right: 10rem;
   }
 }
-@media screen and (max-width: 55em) {
+@media screen and (max-width: 550px) {
   .navbar {
     padding: 2rem 4rem;
   }
